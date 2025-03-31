@@ -39,7 +39,9 @@ int main(void) {
 	    sleep(T_VERMELHO);
 	    estado_atual = VERDE;
 	    break;
-	    
+
+	default:
+	    break;
 	}
     }
     return 0;
