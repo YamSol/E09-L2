@@ -1,3 +1,29 @@
 <circuit version="1.1.0-SR1" rev="2005" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
 
+<item itemtype="MCU" CircId="mega328-1" mainComp="false" Show_id="true" Show_Val="false" Pos="-288,-160" rotation="0" hflip="1" vflip="1" label="mega328-1" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Frequency="16 MHz" Program="build/o.hex" Auto_Load="true" saveEepr="true" Logic_Symbol="false" Rst_enabled="false" Ext_Osc="false" Wdt_enabled="false" Clk_Out="false" MainMcu="true" SerialMon="-1" />
+
+<item itemtype="Led" CircId="Led-2" mainComp="false" Show_id="false" Show_Val="false" Pos="-376,-48" rotation="-180" hflip="1" vflip="1" label="Led-2" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Red" Grounded="true" Threshold="1.8 V" MaxCurrent="30 mA" Resistance="0.6 Ω" />
+
+<item itemtype="Led" CircId="Led-3" mainComp="false" Show_id="false" Show_Val="false" Pos="-380,-84" rotation="-180" hflip="1" vflip="1" label="Led-3" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" Grounded="true" Threshold="2.4 V" MaxCurrent="30 mA" Resistance="0.6 Ω" />
+
+<item itemtype="Push" CircId="Push-4" mainComp="false" Show_id="false" Show_Val="false" Pos="-348,-172" rotation="0" hflip="1" vflip="1" label="Push-4" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" Poles="1" />
+
+<item itemtype="Ground" CircId="Ground-10" mainComp="false" Show_id="false" Show_Val="false" Pos="-408,-156" rotation="0" hflip="1" vflip="1" label="Ground-10" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Ground" CircId="Ground-11" mainComp="false" Show_id="false" Show_Val="false" Pos="-408,-112" rotation="0" hflip="1" vflip="1" label="Ground-11" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Push" CircId="Push-12" mainComp="false" Show_id="false" Show_Val="false" Pos="-348,-128" rotation="0" hflip="1" vflip="1" label="Push-12" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" Poles="1" />
+
+<item itemtype="Connector" uid="Connector-11" startpinid="Push-4-switch0pinN" endpinid="mega328-1-PORTD2" pointList="-332,-172,-308,-172,-308,-128,-296,-128" />
+
+<item itemtype="Connector" uid="Connector-12" startpinid="Ground-10-Gnd" endpinid="Push-4-pinP0" pointList="-408,-172,-364,-172" />
+
+<item itemtype="Connector" uid="Connector-14" startpinid="Ground-11-Gnd" endpinid="Push-12-pinP0" pointList="-408,-128,-364,-128" />
+
+<item itemtype="Connector" uid="Connector-15" startpinid="Push-12-switch0pinN" endpinid="mega328-1-PORTD3" pointList="-332,-128,-324,-128,-324,-120,-296,-120" />
+
+<item itemtype="Connector" uid="Connector-16" startpinid="mega328-1-PORTD4" endpinid="Led-2-lPin" pointList="-296,-112,-312,-112,-312,-48,-360,-48" />
+
+<item itemtype="Connector" uid="Connector-17" startpinid="mega328-1-PORTD5" endpinid="Led-3-lPin" pointList="-296,-72,-328,-72,-328,-84,-364,-84" />
+
 </circuit>
