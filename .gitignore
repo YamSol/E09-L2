@@ -2,6 +2,9 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=c
 
 out/
+build/
+*.zip
+*.7z
 
 ### C ###
 # Prerequisites
@@ -12,11 +15,6 @@ out/
 *.ko
 *.obj
 *.elf
-
-# Linker output
-*.ilk
-*.map
-*.exp
 
 # Precompiled Headers
 *.gch
@@ -58,3 +56,4 @@ Mkfile.old
 dkms.conf
 
 # End of https://www.toptal.com/developers/gitignore/api/c
+
