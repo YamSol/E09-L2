@@ -1,0 +1,5 @@
+Crie um projeto que após a inicialização do ATMega328p, um LED Vermelho
+fique piscando com um tempo de 150ms. O projeto deve fazer uso do periférico
+TIMER e não pode conter linhas de delay.Crie um projeto que após a inicialização do ATMega328p, um LED Vermelho
+fique piscando com um tempo de 150ms. O projeto deve fazer uso do periférico
+TIMER e não pode conter linhas de delay.

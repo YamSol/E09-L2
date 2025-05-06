@@ -1,0 +1,3 @@
+Desenvolva um programa que faça com que um LED Vermelho indique cada segundo
+(fique aceso por 100ms e apaga) e um LED Verde indique os minutos (acende por
+100ms e apaga). Use o temporizador
